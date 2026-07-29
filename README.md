@@ -1,5 +1,11 @@
 <h1 align="center">Hi 👋, I'm Nimra Saeed</h1>
-<h3 align="center">QA Automation Engineer | Selenium • Playwright • Cypress • API & Database Testing</h3>
+<h3 align="center">QA Automation Engineer | Manual & API Testing | SQA</h3>
+
+<p align="center">I build reliable automation frameworks and data-driven testing pipelines — from UI and API validation to SQL-based database checks across web and mobile applications.</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=NimraSaeed567&label=Profile%20Views&color=black&style=flat" />
+</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/nimra-saeed-aaa55a2b7/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
