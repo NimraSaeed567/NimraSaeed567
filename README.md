@@ -4,7 +4,9 @@
 <p align="center">I build reliable automation frameworks and data-driven testing pipelines, combining manual and automation testing — from UI and API validation to SQL-based database checks across web and mobile applications.</p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=NimraSaeed567&label=Profile%20Views&color=grey&style=flat" />
+  <a href="https://github.com/NimraSaeed567">
+    <img src="https://komarev.com/ghpvc/?username=NimraSaeed567&label=Profile%20Views&color=grey&style=flat" alt="Nimra Saeed profile views"/>
+  </a>
 </p>
 
 <p align="center">
@@ -15,17 +17,22 @@
 
 ---
 
-### About Me
+### 👩‍💻 About Me
 
-- 🎓 Electrical Engineering graduate (NUST College of E&ME, Rawalpindi) who moved into Software Quality Assurance
-- 🧪 Hands-on experience in manual testing, automation testing, API testing, UI testing, and SQL-based database validation
-- 🔧 I design and build automation frameworks with **Selenium**, **Playwright**, and **Cypress** across web and mobile applications
-- 📊 I care about turning defect and test-execution data into actionable release-readiness insights, not just pass/fail counts
-- 🔁 Comfortable working in Agile/Scrum teams — sprint planning, backlog grooming, and shift-left testing practices
+My work spans:
+
+- 🎓 **Electrical Engineering** background (NUST) applied to a systematic, data-first approach to software quality
+- 🧪 **Manual & automation testing** — functional, regression, sanity, smoke, integration, system, CRUD, and exploratory testing
+- 🔧 **Automation frameworks** built with **Selenium**, **Playwright**, and **Cypress** across web and mobile applications
+- 🔌 **API testing** with Postman — request/response validation, status codes, error handling, and CI/CD integration
+- 🗄️ **Database & backend validation** using SQL — defect trends, module-wise failure rates, and test coverage metrics
+- 🔁 **Agile/Scrum** — sprint planning, backlog grooming, Boundary Value Analysis, and shift-left testing practices
+
+I currently work as an **SQA Engineer at Allshore Talent**, executing end-to-end, functional, regression, and exploratory testing across web and mobile applications, plus backend validation via SQL.
 
 ---
 
-### Professional Experience
+### 💼 Professional Experience
 
 **🔹 SQA Engineer @ Allshore Talent** — *Remote, Kansas, MO* &nbsp;|&nbsp; Mar 2026 – Present
 - Execute end-to-end, functional, regression, sanity, smoke, integration, system, CRUD, and exploratory testing on web and mobile applications to identify defects and ensure a smooth user experience
@@ -49,57 +56,177 @@
 
 ---
 
-### Featured Projects
+### 🚀 Featured Projects
 
-| Project | Stack | What it covers |
-|---|---|---|
-| [SwagLabsUIAutomation](https://github.com/NimraSaeed567/SwagLabsUIAutomation) | Playwright, TypeScript | Page Object Model suite for Swag Labs, with a custom bug-report reporter |
-| [sauce-demo-java-automation](https://github.com/NimraSaeed567/sauce-demo-java-automation) | Selenium, JUnit 5, Java | Same target site, Java/Selenium stack, custom HTML reporting |
-| [healthcare-telehealth-qa-automation](https://github.com/NimraSaeed567/healthcare-telehealth-qa-automation) | Playwright | E2E tests for a telehealth platform's patient booking flows |
-| [OrangeHRMAutomation](https://github.com/NimraSaeed567/OrangeHRMAutomation) | Cypress | Page Object Model suite for the OrangeHRM HR platform |
-| [weather-shopper-automation](https://github.com/NimraSaeed567/weather-shopper-automation) | Cucumber, Selenium | BDD automation for the Weather Shopper demo site |
-| [crm-dashboard](https://github.com/NimraSaeed567/crm-dashboard) | React, Vite, Supabase | Full-stack CRM dashboard with an AI "Ask AI" query feature |
-| [ai-leukemia-detection-fpga](https://github.com/NimraSaeed567/ai-leukemia-detection-fpga) | Python, Keras | Final year project — leukemia detection via signal-feature extraction |
+#### 🧪 SwagLabs UI Automation
+**Technologies:** Playwright, TypeScript, Page Object Model
+
+- Page Object Model suite for Swag Labs — Login, Logout, Inventory, Cart, and Checkout pages
+- Custom Playwright fixtures inject page objects and a pre-authenticated session
+- Custom reporter auto-generates a Markdown bug report per failing test — repro steps, expected vs. actual, and links to screenshot/video/trace
+- Runs across Chromium, Firefox, and WebKit, with a per-run `test-summary.md`
+
+#### ☕ SauceDemo Java Automation
+**Technologies:** Selenium, JUnit 5, Java
+
+- 7 end-to-end test cases: login, cart add/remove (from Products, Checkout, and Product Details pages), full purchase flow, cart persistence across logout/login, and all 4 sort options verified against actual expected order
+- Custom HTML reporter logging pass/fail status per test step
+- Credentials loaded from an external JSON config via Jackson's `ObjectMapper`
+- Runs against a remote Selenium Grid
+
+#### 🏥 Healthcare Telehealth QA Automation
+**Technologies:** Playwright
+
+- E2E tests for a telehealth platform: admin user/facility/organization management, dashboard team & weekly-schedule management, knowledge-base topic management, and login
+- Cross-browser verification across Chromium, WebKit, and Firefox
+- Responsive layout testing across mobile, tablet, and desktop viewports for booking workflows
+
+#### 🧑‍💼 OrangeHRM Automation
+**Technologies:** Cypress, Page Object Model
+
+- Page Object Model suite: LoginPage, SidebarPage, AdminUserPage, PimPage, LeavePage
+- Covers login validation, Admin > User Management (search/create/delete), PIM > Employee List (search/create/delete), and Leave navigation
+- Login cached per test run via `cy.session`; data-creating tests clean up after themselves since this runs against a shared public demo instance
+
+#### ☀️ Weather Shopper Automation
+**Technologies:** Cucumber, Selenium, Java, ExtentReports
+
+- BDD feature file drives a full purchase journey: check temperature → buy moisturizer or sunscreen based on it → add to cart → checkout → complete payment
+- Page Object Model: HomePage, MoisturizersPage, SunscreensPage, CartPage, CheckoutPage
+- ExtentReports HTML reporting per run
+
+#### 📊 CRM Dashboard
+**Technologies:** React 19, Vite, Tailwind CSS, Supabase, Recharts
+
+- KPI dashboard with revenue, pipeline, and lead-source charts, plus customer/task/invoice managers
+- **Ask AI** — natural-language querying over dashboard data via a Vercel serverless function calling OpenRouter, keeping the API key server-side only
+- Supabase-backed auth and Postgres database, light/dark theme support
+
+#### 🩸 AI-Driven Leukemia Detection (FYP, FPGA)
+**Technologies:** Python, Keras, OpenCV
+
+- Final year project — processes the C-NMC Leukemia microscopy image dataset
+- Extracts image-derived signal features (flattened + FFT-based frequency-domain features) as a bridge toward FPGA-based signal processing
+- Trains a Dense/Dropout Keras neural network, evaluated via confusion matrix and classification report
+- Reported result: **MobileNetV2, 96% test accuracy**
 
 More on my [portfolio site →](https://nimra-saeed.netlify.app/)
 
 ---
 
-### Tech Stack
+### 🛠️ Technical Skills
 
 **Languages & Databases**
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML%2FCSS-E34F26?style=flat-square&logo=html5&logoColor=white)
+![C++](https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
 **Automation & API Tools**
+
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
 ![Cypress](https://img.shields.io/badge/Cypress-17202C?style=flat-square&logo=cypress&logoColor=white)
 ![Cucumber](https://img.shields.io/badge/Cucumber-23D96C?style=flat-square&logo=cucumber&logoColor=white)
+![TestNG](https://img.shields.io/badge/TestNG-E34F26?style=flat-square)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black)
 ![JMeter](https://img.shields.io/badge/JMeter-D22128?style=flat-square&logo=apachejmeter&logoColor=white)
 
-**QA Process & Tools**
+**Testing Types**
+
+![Functional](https://img.shields.io/badge/-Functional%20Testing-blue?style=flat-square)
+![Regression](https://img.shields.io/badge/-Regression%20Testing-blue?style=flat-square)
+![Smoke](https://img.shields.io/badge/-Smoke%20Testing-blue?style=flat-square)
+![Sanity](https://img.shields.io/badge/-Sanity%20Testing-blue?style=flat-square)
+![Integration](https://img.shields.io/badge/-Integration%20Testing-blue?style=flat-square)
+![Exploratory](https://img.shields.io/badge/-Exploratory%20Testing-blue?style=flat-square)
+![UAT](https://img.shields.io/badge/-User%20Acceptance%20Testing-blue?style=flat-square)
+![Performance](https://img.shields.io/badge/-Performance%20Testing-blue?style=flat-square)
+![Security](https://img.shields.io/badge/-Security%20Testing-blue?style=flat-square)
+![Risk-Based](https://img.shields.io/badge/-Risk--Based%20Testing-blue?style=flat-square)
+
+**QA Process, Test Design & Tools**
+
+![Agile](https://img.shields.io/badge/Agile-0052CC?style=flat-square)
+![SDLC/STLC](https://img.shields.io/badge/-SDLC%2FSTLC-0052CC?style=flat-square)
+![RTM](https://img.shields.io/badge/-Traceability%20Matrix-0052CC?style=flat-square)
+![BVA](https://img.shields.io/badge/-Boundary%20Value%20Analysis-0052CC?style=flat-square)
+![Equivalence Partitioning](https://img.shields.io/badge/-Equivalence%20Partitioning-0052CC?style=flat-square)
+![Decision Table](https://img.shields.io/badge/-Decision%20Table%20Testing-0052CC?style=flat-square)
+![Pairwise](https://img.shields.io/badge/-Pairwise%20Testing-0052CC?style=flat-square)
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![Azure DevOps](https://img.shields.io/badge/Azure%20DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white)
 
 ---
 
-### Certifications
+### 🎓 Education
 
-- Selenium 4 in Java
-- JUnit 5
-- Browser Automation using JavaScript
-- SQL for Data Analysis
-- Machine Learning with Python
+**Bachelor of Engineering in Electrical Engineering (BE)**
+NUST College of Electrical and Mechanical Engineering, Rawalpindi, Pakistan
+*2021 – 2025*
 
 ---
 
+### 📜 Certifications
+
+- **Selenium 4 in Java**
+- **JUnit 5**
+- **Browser Automation using JavaScript**
+- **SQL for Data Analysis**
+- **Machine Learning with Python**
+
+---
+
+### 🤝 Open to Opportunities
+
+I'm interested in roles and collaborations involving:
+
+- Manual & automation testing (Selenium, Playwright, Cypress)
+- API testing & backend validation (Postman, SQL)
+- Test framework design and CI/CD integration
+- QA process improvement, defect analysis, and release-readiness reporting
+
+---
+
+### 📊 GitHub Analytics
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=NimraSaeed567&show_icons=true&theme=default&hide_title=false&count_private=true" alt="Nimra's GitHub stats" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=NimraSaeed567&show_icons=true&theme=default&hide_border=true&count_private=true" height="165" alt="Nimra's GitHub stats" />
+  <img src="https://streak-stats.demolab.com?user=NimraSaeed567&theme=default&hide_border=true" height="165" alt="Nimra's GitHub streak" />
 </p>
 
-<p align="center"><i>engr.nimrasaeed567@gmail.com · +92 309 5000693</i></p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NimraSaeed567&layout=compact&theme=default&hide_border=true&langs_count=8" height="165" alt="Nimra's most used languages" />
+</p>
+
+---
+
+### 📈 Contribution Activity
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NimraSaeed567&theme=minimal&hide_border=true" alt="Nimra's GitHub contribution activity graph" />
+</p>
+
+---
+
+### 📫 Let's Connect
+
+<p align="center">
+  <a href="mailto:engr.nimrasaeed567@gmail.com">
+    <img src="https://img.shields.io/badge/Email-engr.nimrasaeed567%40gmail.com-D14836?style=for-the-badge&logo=gmail" alt="Email"/>
+  </a>
+  <a href="https://www.linkedin.com/in/nimra-saeed-aaa55a2b7/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect%20with%20me-0077B5?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
+  </a>
+  <a href="https://nimra-saeed.netlify.app/">
+    <img src="https://img.shields.io/badge/Portfolio-Visit%20site-000000?style=for-the-badge&logo=netlify" alt="Portfolio"/>
+  </a>
+</p>
+
+<h3 align="center">🎯 Quality isn't a phase — it's a mindset 🎯</h3>
