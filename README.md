@@ -1,10 +1,10 @@
 <h1 align="center">Hi 👋, I'm Nimra Saeed</h1>
-<h3 align="center">QA Automation Engineer | Manual & API Testing | SQA</h3>
+<h3 align="center">QA Automation Engineer | Manual & API Testing</h3>
 
-<p align="center">I build reliable automation frameworks and data-driven testing pipelines — from UI and API validation to SQL-based database checks across web and mobile applications.</p>
+<p align="center">I build reliable automation frameworks and data-driven testing pipelines, combining manual and automation testing — from UI and API validation to SQL-based database checks across web and mobile applications.</p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=NimraSaeed567&label=Profile%20Views&color=black&style=flat" />
+  <img src="https://komarev.com/ghpvc/?username=NimraSaeed567&label=Profile%20Views&color=grey&style=flat" />
 </p>
 
 <p align="center">
