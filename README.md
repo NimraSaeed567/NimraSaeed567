@@ -27,26 +27,22 @@
 
 ### Professional Experience
 
-#### SQA Engineer — Allshore Talent
-*Remote, Kansas, MO · March 2026 – Present*
+**🔹 SQA Engineer @ Allshore Talent** — *Remote, Kansas, MO* &nbsp;|&nbsp; Mar 2026 – Present
 - Execute end-to-end, functional, regression, sanity, smoke, integration, system, CRUD, and exploratory testing on web and mobile applications to identify defects and ensure a smooth user experience
 - Create and maintain detailed test cases, test scenarios, and test data from business requirements and user stories, and track defects to closure with developers and product teams
 - Execute SQL queries for backend data validation and database testing, and perform UI/UX, cross-browser, cross-platform, accessibility, and localization testing across devices and browsers
 
-#### QA Analyst — Hypertext Solutions
-*Islamabad, Pakistan · December 2025 – March 2026*
+**🔹 QA Analyst @ Hypertext Solutions** — *Islamabad, Pakistan* &nbsp;|&nbsp; Dec 2025 – Mar 2026
 - Designed and executed manual functional, regression, smoke, and sanity test cases for web applications, logging and tracking defects through resolution in JIRA
 - Performed API testing with Postman to validate request/response payloads, status codes, and error handling across backend endpoints
 - Ran SQL queries for backend data validation and test data setup, and worked with developers and product owners in Agile sprints, contributing to sprint planning, standups, and release readiness reviews
 
-#### SQA Engineer — Octathorn
-*National Aerospace Science & Technology Park (NASTP), Rawalpindi, Pakistan · July 2025 – November 2025*
+**🔹 SQA Engineer @ Octathorn (NASTP)** — *Rawalpindi, Pakistan* &nbsp;|&nbsp; Jul 2025 – Nov 2025
 - Performed manual, automation, and API testing on web and mobile applications using Playwright and TestNG, designing and executing automated test scripts to improve test efficiency and coverage
 - Performed database validation using SQL queries to verify application data, identify inconsistencies, and support defect investigation and root cause analysis
 - Collaborated with cross-functional teams to define test strategies, create test cases, and validate requirements for reliable releases
 
-#### QA Intern — Emumba Private Limited
-*Islamabad, Pakistan · June 2024 – August 2024*
+**🔹 QA Intern @ Emumba Private Limited** — *Islamabad, Pakistan* &nbsp;|&nbsp; Jun 2024 – Aug 2024
 - Conducted manual, functional, and regression testing, along with API testing using Postman, ensuring software quality through test case design, defect logging, and test execution with tools like JIRA and Selenium
 - Developed and implemented UI automation frameworks using Selenium, Cucumber, and JUnit, applying Java-based testing, bug lifecycle understanding, test planning, and root cause analysis
 - Executed SQL queries for database validation and backend testing, and participated in defect triaging, root cause analysis, and test planning with development teams
