@@ -230,3 +230,7 @@ I'm interested in roles and collaborations involving:
 </p>
 
 <h3 align="center">🎯 Quality isn't a phase — it's a mindset 🎯</h3>
+
+---
+
+<p align="center"><sub>Last updated: this profile README is maintained alongside my pinned repositories above.</sub></p>
