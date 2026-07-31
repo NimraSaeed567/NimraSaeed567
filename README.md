@@ -34,7 +34,7 @@ I currently work as an **SQA Engineer at Allshore Talent**, executing end-to-end
 
 ### 💼 Professional Experience
 
-**🔹 SQA Engineer — Allshore Talent** — *Remote, Kansas, MO* &nbsp;|&nbsp; Mar 2026 – Present
+**🔹 SQA Engineer — Allshore Talent** — *Remote Islamabad, Pakistan* &nbsp;|&nbsp; Mar 2026 – Present
 - Execute end-to-end, functional, regression, sanity, smoke, integration, system, CRUD, and exploratory testing on web and mobile applications to identify defects and ensure a smooth user experience
 - Create and maintain detailed test cases, test scenarios, and test data from business requirements and user stories, and track defects to closure with developers and product teams
 - Execute SQL queries for backend data validation and database testing, and perform UI/UX, cross-browser, cross-platform, accessibility, and localization testing across devices and browsers
