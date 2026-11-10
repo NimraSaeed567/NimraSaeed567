@@ -10,9 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/nimra-saeed-aaa55a2b7/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:engr.nimrasaeed567@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://nimra-saeed.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=netlify&logoColor=white" /></a>
 </p>
 
 ---
@@ -101,8 +99,6 @@ End-to-end test suites I built for web apps, using the Page Object Model, fixtur
 | [SauceDemo Java Suite](https://github.com/NimraSaeed567/sauce-demo-java-automation) | Selenium, JUnit 5, Java | Full purchase flow, cart persistence, sorting; JSON config via Jackson and remote Selenium Grid |
 | [Weather Shopper BDD](https://github.com/NimraSaeed567/weather-shopper-automation) | Cucumber, Selenium, Java | BDD purchase journey with ExtentReports |
 | [JUnit 5 Deep Dive](https://github.com/NimraSaeed567/java-junit5-deep-dive) | Java, JUnit 5 | Assertions, parameterized tests, ordering, tags, and custom annotations |
-
-More on my [portfolio site →](https://nimra-saeed.netlify.app/)
 
 ---
 
@@ -194,12 +190,6 @@ I'm interested in full stack roles and freelance projects involving:
 <p align="center">
   <a href="mailto:engr.nimrasaeed567@gmail.com">
     <img src="https://img.shields.io/badge/Email-engr.nimrasaeed567%40gmail.com-D14836?style=for-the-badge&logo=gmail" alt="Email"/>
-  </a>
-  <a href="https://www.linkedin.com/in/nimra-saeed-aaa55a2b7/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect%20with%20me-0077B5?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
-  </a>
-  <a href="https://nimra-saeed.netlify.app/">
-    <img src="https://img.shields.io/badge/Portfolio-Visit%20site-000000?style=for-the-badge&logo=netlify" alt="Portfolio"/>
   </a>
 </p>
 
