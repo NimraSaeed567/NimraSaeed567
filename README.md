@@ -65,6 +65,21 @@ I currently work as a **Full Stack Engineer at Mammoth AI** on TestMax, an AI pl
 - **Ask AI:** natural-language questions over dashboard data through a Vercel serverless API (`api/ask.js`) that calls an LLM, keeping the API key server-side
 - Supabase authentication, a Postgres schema in `supabase/schema.sql`, and light/dark themes
 
+#### 🏛️ [Virtual Art Museum](https://github.com/NimraSaeed567/virtual-art-museum), full stack · 3D
+**Stack:** React, TypeScript, Three.js / React Three Fiber, Zustand, Supabase (PostgreSQL, Auth, RLS, Edge Functions), Vercel
+
+- First-person 3D walkthrough of themed halls with clickable artworks, plus a 2D site for halls, exhibits, artworks, and artists
+- Accounts, favourites, following artists, and membership-gated content (public, member, premium) enforced with Row Level Security
+- Artist submission flow and an admin-only curator dashboard to approve or reject work
+- SQL migrations, analytics events, a newsletter, and a Supabase Edge Function for social link previews
+
+#### 💌 [Digital Wedding Invitations](https://github.com/NimraSaeed567/wedding-invitations), frontend + Supabase
+**Stack:** JavaScript, HTML, CSS, Supabase REST + Storage APIs, Puppeteer
+
+- Four mobile-first invitation templates with video heroes, scratch-to-reveal dates, and staged animations
+- RSVP, guest messages, and photo gallery uploads saved through the Supabase REST and Storage APIs, with an admin view to moderate them
+- Animated video reel rendered frame by frame to MP4 with Puppeteer
+
 #### 🩸 [AI-Driven Leukemia Detection](https://github.com/NimraSaeed567/ai-leukemia-detection-fpga), Python · ML
 **Stack:** Python, Keras, OpenCV
 
