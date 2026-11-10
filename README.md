@@ -36,7 +36,7 @@ I currently work as a **Full Stack Engineer at Mammoth AI** on TestMax, an AI pl
 - Develop frontend screens for submitting requirements and reviewing generated output, connected to REST APIs that trigger and track generation workflows
 - Design and maintain API integration layers and SQL-backed persistence for projects, requirements, and generated artifacts
 
-**🔹 Software Engineer, Allshore Talent** · *Remote (Contract)* &nbsp;|&nbsp; Mar 2026 – Aug 2026
+**🔹 Software Engineer, Allshore Talent** · *Remote (Contract), Islamabad, Pakistan* &nbsp;|&nbsp; Mar 2026 – Aug 2026
 - Developed full-stack features for **VFW Command Post** admin and member portals: memberships, dues, donations, events, and officer management
 - Implemented role-based access and SSO across a multi-level chapter hierarchy
 - Built REST integrations with third-party finance and membership systems, and migrated backend data using SQL
